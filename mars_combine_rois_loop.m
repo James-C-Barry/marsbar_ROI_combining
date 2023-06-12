@@ -33,7 +33,7 @@ for i = 1:numel(folders)
     end
     
     % Create a custom name for the combined ROI file
-    combinedRoiName = 'custom_name'; % Customize the name here
+    combinedRoiName = 'custom_name'; % Customise the name here
     
     % Load the first ROI file to start combining
     roi1File = fullfile(folderPath, roiFiles(roiIndices(1)).name);
@@ -46,7 +46,7 @@ for i = 1:numel(folders)
         roi2 = maroi('load', roi2File);
         
         % Combine the ROIs
-        roiCombined = roiCombined | roi2;
+        roiCombined = roiCombined | roi2; % This can change depending on your ROI need. See here for more details: https://marsbar-toolbox.github.io/tutorial/define.html
     end
     
     % Set the label and description for the combined ROI
