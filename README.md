@@ -9,3 +9,5 @@ The mars_combine_rois script will read all roi.mat files in a directory and one 
 folder that it finds. There is also the option to create a custom label and a custom description.
 
 The roi_to_nifti script simply exports all roi.mat files found in a parent directory and one level lower back to nifti format.
+
+Please ensure you have SPM and MarsBar toolbox added to your Matlab path.
