@@ -1,9 +1,12 @@
+% Needs FSL and matlab to both be open in the cluster
+% Runs using the anatrois file directory system
+
 clear all;clc;
 %system('module load fsl/6.0.2');
-basedir = '/bcbl/home/home_g-m/jbarry/diffusion/TOT_PREV/';
-container='anatrois';
-version='4.2.7-7.1.1';
-analysis='analysis-TOT_PREV';
+basedir = ' ';
+container=' ';
+version=' ';
+analysis=' ';
 
 projPath = fullfile(basedir,'nifti','derivatives',...
     strcat(container,'_',version),analysis);
