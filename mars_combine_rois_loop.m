@@ -1,3 +1,5 @@
+% Currently does not work, use FSL script instead
+
 % Set the root directory
 rootDir = 'write/your/root/directory/path/here';
 
